@@ -14,7 +14,7 @@ export default function About() {
                 <Header />
 				<Intro />
 
-				<h2 className="text-6xl md:text-8m font-bold tracking-tighter flex justify-center leading-tight md:pr-8">
+				<h2 className="text-7xl md:text-8m font-bold tracking-tighter flex justify-center leading-tight md:pr-8">
 					About Angel
 				</h2>
 				<h3 className="text-6xl md:text-4m font-bold tracking-tighter flex justify-left leading-tight md:pr-8">

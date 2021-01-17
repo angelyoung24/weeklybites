@@ -13,7 +13,8 @@ export default function Contact() {
 					<title>Contact | Weekly Bites with Angel</title>
 				</Head>
                 <Intro />
-				<h1>Contact</h1>
+				<h1 className="text-7xl font-bold tracking-tighter flex justify-center leading-tight md:pr-8">Contact Me</h1>
+                <p>Coming Soon</p>
 			</Container>
 		</Layout>
 	);
