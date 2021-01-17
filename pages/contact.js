@@ -1,16 +1,18 @@
-import Layout from "../components/layout"
-import Head from "../components/head"
-import Container from "../components/container"
+import Layout from "../components/layout";
+import Head from "next/head";
+import Container from "../components/container";
+import Intro from "../components/intro";
 
 export default function Contact() {
-    return (
-        <Layout>
-            <Head>
-					<title>Weekly Bites with Angel</title>
+	return (
+		<Layout>
+			<Container>
+				<Head>
+					<title>Contact | Weekly Bites with Angel</title>
 				</Head>
-            <Container>
-                <h1>Contact</h1>
-            </Container>
-        </Layout>
-    )
+                <Intro />
+				<h1>Contact</h1>
+			</Container>
+		</Layout>
+	);
 }

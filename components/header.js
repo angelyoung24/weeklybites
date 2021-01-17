@@ -1,16 +1,17 @@
 import Link from "next/link";
+import styles from '../styles/header.module.css'
 
 export default function Header() {
 	return (
-		<h2 className="flex flex-row justify-around">
+		<h2 className={styles.nav}>
 			<Link href="/">
-				<a className="hover:underline">Weekly Bites with Angel</a>
+				<a>Home</a>
 			</Link>
 			<Link href="/about">
-				<a className="hover:underline">About</a>
+				<a>About</a>
 			</Link>
       <Link href="/contact">
-      <a className="hover:underline">Contact</a>
+      <a>Contact</a>
       </Link>
 		</h2>
 	);

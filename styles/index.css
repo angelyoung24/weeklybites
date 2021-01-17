@@ -1,15 +1,6 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
-/* Write your own custom base styles here */
+* {
+    font-family: 'Amatic SC', cursive;
+}
 
-/* Start purging... */
-@tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
-
-/* Your own custom utilities */
