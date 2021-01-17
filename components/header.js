@@ -1,9 +1,9 @@
 import Link from "next/link";
-import styles from '../styles/header.module.css'
 
 export default function Header() {
 	return (
-		<h2 className={styles.nav}>
+    <header classnName="bg-accent-1 border-t border-accent-2">
+		<h2 className="flex justify-between text-5xl">
 			<Link href="/">
 				<a>Home</a>
 			</Link>
@@ -14,5 +14,6 @@ export default function Header() {
       <a>Contact</a>
       </Link>
 		</h2>
+    </header>
 	);
 }

@@ -1,4 +1,5 @@
 import Container from "../components/container";
+import Header from "../components/header";
 import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
@@ -15,8 +16,11 @@ export default function Index({ allPosts }) {
 				<Head>
 					<title>Weekly Bites with Angel</title>
 				</Head>
+
 				<Container>
+					<Header />
 					<Intro />
+
 					{heroPost && (
 						<HeroPost
 							title={heroPost.title}

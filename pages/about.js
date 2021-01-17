@@ -1,4 +1,5 @@
 import Container from "../components/container";
+import Header from "../components/header";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 import Head from "next/head";
@@ -10,7 +11,7 @@ export default function About() {
 				<Head>
 					<title>About | Weekly Bites with Angel</title>
 				</Head>
-
+                <Header />
 				<Intro />
 
 				<h2 className="text-6xl md:text-8m font-bold tracking-tighter flex justify-center leading-tight md:pr-8">
